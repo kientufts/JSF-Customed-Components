@@ -1,0 +1,45 @@
+#pick-list-panel select{
+    border: 1px solid #DDD;
+    min-height: 300px;
+    overflow: visible;
+    width: 200px;
+}
+
+:focus{outline: none}
+
+#pick-list-panel select option{
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+}
+
+#pick-list-panel{
+    width: 650px;
+    margin: 100px auto;
+}
+
+#pick-list-left{
+    float: left;
+    width: 230px;
+}
+
+#pick-list-main{
+    float: left;
+    width: 50px;
+    padding-top: 70px;
+}
+
+#pick-list-right{
+    float: left;
+    width: 230px;
+}
+
+#pick-list-main input[type='submit']{
+    margin-bottom: 3px;
+    cursor: pointer;
+    width: 30px;
+    border: 1px solid #DDD;
+    padding: 3px 6px 3px 6px;
+    background-color: #e6e6e6;
+    border-right: 5px;
+    border-radius: 5px;
+}

@@ -9,17 +9,26 @@
       <title>
          JSF Customed Components
       </title>
-       <h:outputStylesheet name="style.css"/>
+       <h:outputStylesheet name="index.css"/>
    </h:head>
 
    <h:body>
       <h:form>
          <div class="grid">
             <div class="grid-col">
-               <h:commandButton styleClass="button" value="Switch Button" action="switch-button"/>
+               <h:commandButton styleClass="button"
+                                value="Switch Button"
+                                action="switch-button"/>
             </div>
             <div class="grid-col">
-               <h:commandButton styleClass="button" value="Pick List Box" action="pick-list-box"/>
+               <h:commandButton styleClass="button"
+                                value="Pick List Box"
+                                action="pick-list-box"/>
+            </div>
+            <div class="grid-col">
+               <h:commandButton styleClass="button"
+                                value="Search Box"
+                                action="search-box"/>
             </div>
          </div>
       </h:form>

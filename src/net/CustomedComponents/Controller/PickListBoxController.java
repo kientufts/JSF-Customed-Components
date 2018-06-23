@@ -1,4 +1,4 @@
-package net.CustomedComponents;
+package net.CustomedComponents.Controller;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
