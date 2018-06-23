@@ -7,3 +7,15 @@
     border-radius: 4px;
     color: #fefdff;
 }
+
+.grid{
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.grid-col{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}

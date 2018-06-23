@@ -14,7 +14,14 @@
 
    <h:body>
       <h:form>
-         <h:commandButton styleClass="button" value="Switch Button" action="switch-button"/>
+         <div class="grid">
+            <div class="grid-col">
+               <h:commandButton styleClass="button" value="Switch Button" action="switch-button"/>
+            </div>
+            <div class="grid-col">
+               <h:commandButton styleClass="button" value="Pick List Box" action="pick-list-box"/>
+            </div>
+         </div>
       </h:form>
    </h:body>
 </html>
