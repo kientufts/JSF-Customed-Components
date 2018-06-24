@@ -8,14 +8,16 @@
 
 <h:head>
     <title>JSF Switch Button Demo</title>
-    <link rel="stylesheet" type="text/css" href="resources/switchbutton.css"/>
+    <h:outputStylesheet name="switch-button.css"/>
 </h:head>
 
 <h:body>
     <h:form>
         <h:selectOneRadio class="jsf-switch-button">
-            <f:selectItem itemLabel="Male" itemValue="Male"/>
-            <f:selectItem itemLabel="Female" itemValue="Female"/>
+            <f:selectItem itemLabel="Male"
+                          itemValue="Male"/>
+            <f:selectItem itemLabel="Female"
+                          itemValue="Female"/>
         </h:selectOneRadio>
     </h:form>
 </h:body>

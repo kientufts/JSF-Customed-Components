@@ -1,0 +1,39 @@
+div#accordion-panel{
+    width: 600px;
+    margin: 50px auto;
+}
+ul,li,h5,p{
+    padding: 0px;
+    margin: 0px;
+}
+div#accordion-panel ul{
+    list-style-type: none;
+}
+div#accordion-panel h5{
+    border: 1px solid #cccccc;
+    background-color: #DDD;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div#accordion-panel p{
+    min-height: 100px;
+    border: 1px solid #DDD;
+    border-top: none;
+    display: none;
+    border-radius: 5px;
+}
+div#accordion-panel h5.selected-panel{
+    background-color: white;
+    color: #686868;
+}
+div#accordion-panel h5.selected-panel span.icon{
+    border: 1px solid #686868;
+}
+div#accordion-panel span.icon{
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 2px 5px 2px 5px;
+}

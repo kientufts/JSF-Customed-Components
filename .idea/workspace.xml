@@ -7,22 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd030f5a-1d7e-41a3-a76a-8fa24e316bbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/net/CustomedComponents/Controller/SearchBoxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/picklistbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/searchbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/switchbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search-box.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/CustomedComponents/Bean/AccordionElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/CustomedComponents/Controller/AccordionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/components/accordion-panel.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/accordion-panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/accordion-panel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/WEB-INF/classes/net/CustomedComponents/PickListBoxController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/pick-list-box.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/pick-list-box.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/resources/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JSF-Customed-Components/net/CustomedComponents/PickListBoxController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/CustomedComponents/PickListBoxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/CustomedComponents/Controller/PickListBoxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/pick-list-box.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/resources/picklistbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/resources/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/resources/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/search-box.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSF_Customed_Components_war_exploded/switch-button.xhtml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pick-list-box.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pick-list-box.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/switch-button.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/switch-button.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pick-list-box.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/pick-list-box.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/picklistbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/pick-list-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/search-box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/switchbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/switch-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/search-box.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/search-box.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/switch-button.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/switch-button.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,57 +41,26 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-box.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/search-box.xhtml">
+      <file leaf-file-name="accordion-panel.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/components/accordion-panel.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="switch-button.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
+      <file leaf-file-name="accordion-panel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchBoxController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Controller/SearchBoxController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pick-list-box.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,9 +89,17 @@
         <option value="$PROJECT_DIR$/web/resources/switchbutton.css" />
         <option value="$PROJECT_DIR$/src/net/CustomedComponents/Controller/SearchBoxController.java" />
         <option value="$PROJECT_DIR$/web/search-box.xhtml" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/web/pick-list-box.xhtml" />
         <option value="$PROJECT_DIR$/web/switch-button.xhtml" />
+        <option value="$PROJECT_DIR$/web/resources/accordion-panel.css" />
+        <option value="$PROJECT_DIR$/web/resources/accordion-panel.js" />
+        <option value="$PROJECT_DIR$/src/net/CustomedComponents/Bean/AccordionPanel.java" />
+        <option value="$PROJECT_DIR$/src/net/CustomedComponents/Controller/AccordionController.java" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
+        <option value="$PROJECT_DIR$/web/components/pick-list-box.xhtml" />
+        <option value="$PROJECT_DIR$/web/components/search-box.xhtml" />
+        <option value="$PROJECT_DIR$/web/components/switch-button.xhtml" />
+        <option value="$PROJECT_DIR$/web/components/accordion-panel.xhtml" />
       </list>
     </option>
   </component>
@@ -131,8 +112,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="NodePackageJsonFileManager">
@@ -168,12 +149,32 @@
               <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSF-Customed-Components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomedComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSF-Customed-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomedComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSF-Customed-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomedComponents" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSF-Customed-Components" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSF-Customed-Components" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSF-Customed-Components" type="b2602c69:ProjectViewProjectNode" />
@@ -191,8 +192,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/components" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
@@ -348,12 +350,21 @@
       <workItem from="1529714417696" duration="266000" />
       <workItem from="1529714725846" duration="171000" />
       <workItem from="1529714984467" duration="1020000" />
-      <workItem from="1529741452589" duration="3266000" />
+      <workItem from="1529741452589" duration="3593000" />
+      <workItem from="1529805883040" duration="44000" />
+      <workItem from="1529805945911" duration="190000" />
+      <workItem from="1529806151203" duration="73000" />
+      <workItem from="1529806242394" duration="78000" />
+      <workItem from="1529806340511" duration="1058000" />
+      <workItem from="1529807431526" duration="184000" />
+      <workItem from="1529807675002" duration="639000" />
+      <workItem from="1529808509687" duration="833000" />
+      <workItem from="1529828736678" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6080000" />
+    <option name="totallyTimeSpent" value="9735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -367,29 +378,29 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="JSF" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="3" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
@@ -400,6 +411,97 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/components/accordion-panel.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/accordion-panel.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/search-box.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Controller/SearchBoxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -411,13 +513,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
@@ -442,13 +541,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
@@ -473,13 +569,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
@@ -493,7 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
@@ -507,7 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
@@ -528,7 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
@@ -549,7 +642,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
@@ -563,16 +656,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Controller/PickListBoxController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,21 +673,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/searchbox.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/search-box.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/picklistbox.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/pick-list-box.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/switchbutton.css">
+    <entry file="file://$PROJECT_DIR$/web/resources/switch-button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
@@ -606,49 +696,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Controller/SearchBoxController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="450">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Bean/AccordionElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/CustomedComponents/Controller/AccordionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/pick-list-box.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/switch-button.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/search-box.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/accordion-panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pick-list-box.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/components/accordion-panel.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/search-box.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/switch-button.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="86" />
         </state>
       </provider>
     </entry>

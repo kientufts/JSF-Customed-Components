@@ -7,7 +7,7 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
     <title>Pick List Demo</title>
-    <link rel="stylesheet" type="text/css" href="resources/picklistbox.css"/>
+    <h:outputStylesheet name="pick-list-box.css"/>
 </h:head>
 
 <h:body>
@@ -16,27 +16,37 @@
             <div id="pick-list-left">
                 <h:selectManyListbox value="#{pickListBoxController.leftValues}">
                     <f:selectItems value="#{pickListBoxController.leftItems}"/>
-                    <f:passThroughAttribute name="size" value="3"/>
+                    <f:passThroughAttribute name="size"
+                                            value="3"/>
                 </h:selectManyListbox>
             </div>
             <div id="pick-list-main">
-                <h:commandButton value="&gt;" action="#{pickListBoxController.pushToRightSelected}">
-                    <f:ajax execute="@form" render="@form"/>
+                <h:commandButton value="&gt;"
+                                 action="#{pickListBoxController.pushToRightSelected}">
+                    <f:ajax execute="@form"
+                            render="@form"/>
                 </h:commandButton>
-                <h:commandButton value="&gt; &gt;" action="#{pickListBoxController.pushToRightAll}">
-                    <f:ajax execute="@form" render="@form"/>
+                <h:commandButton value="&gt; &gt;"
+                                 action="#{pickListBoxController.pushToRightAll}">
+                    <f:ajax execute="@form"
+                            render="@form"/>
                 </h:commandButton>
-                <h:commandButton value="&lt;" action="#{pickListBoxController.pushToLeftSelected}">
-                    <f:ajax execute="@form" render="@form"/>
+                <h:commandButton value="&lt;"
+                                 action="#{pickListBoxController.pushToLeftSelected}">
+                    <f:ajax execute="@form"
+                            render="@form"/>
                 </h:commandButton>
-                <h:commandButton value="&lt; &lt;" action="#{pickListBoxController.pushToLeftAll}">
-                    <f:ajax execute="@form" render="@form"/>
+                <h:commandButton value="&lt; &lt;"
+                                 action="#{pickListBoxController.pushToLeftAll}">
+                    <f:ajax execute="@form"
+                            render="@form"/>
                 </h:commandButton>
             </div>
             <div id="pick-list-right">
                 <h:selectManyListbox value="#{pickListBoxController.rightValues}">
                     <f:selectItems value="#{pickListBoxController.rightItems}"/>
-                    <f:passThroughAttribute name="size" value="3"/>
+                    <f:passThroughAttribute name="size"
+                                            value="3"/>
                 </h:selectManyListbox>
             </div>
         </div>
