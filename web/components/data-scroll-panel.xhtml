@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Data Scroller Pane</title>
+    <h:outputStylesheet name="data-scroll-panel.css"/>
+    <h:outputScript name="data-scroll-panel.js"/>
+</h:head>
+<h:body>
+    <h:form id="form">
+        <div id="data-scroller-panel" onscroll="loadData(this);">
+            <h:panelGroup layout="block" id="loaded-data">
+                <ul>
+                    <ui:repeat value="#{dataScrollController.news}" var="n">
+                        <li>
+                            <h5>#{n.title}</h5>
+                            <p>#{n.body}</p>
+                            <span>Date: #{n.newsDate}</span>
+                        </li>
+                    </ui:repeat>
+                </ul>
+            </h:panelGroup>
+            <img src="images/loading.gif" id="ajax-loader" style="display: none;"/>
+        </div>
+        <h:commandButton style="display: none;" value="Load Data" id="data-loader"
+                         action="#{dataScrollController.loadData}">
+            <f:ajax onevent="ajaxEvent" render="loaded-data"/>
+        </h:commandButton>
+    </h:form>
+</h:body>
+</html>
