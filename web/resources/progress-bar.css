@@ -1,0 +1,18 @@
+#progress-container{
+    background-color: antiquewhite;
+    margin: 20px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+#progress{
+    background: linear-gradient(to right, white, #00b9ff);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    margin: 1px;
+    width: 0px;
+    border-radius: 5px;
+    text-align: right;
+}

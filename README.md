@@ -16,3 +16,6 @@
 
 ## Data Scroll Panel
 ![image](https://user-images.githubusercontent.com/38003697/41817505-1f26db4a-7751-11e8-8547-9c7fb7d273d6.png)
+
+## Progress Bar
+![image](https://user-images.githubusercontent.com/38003697/41819221-8b679c48-7771-11e8-820d-696f9ca9ec34.png)
