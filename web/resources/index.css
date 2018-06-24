@@ -6,16 +6,17 @@
     padding: 5px 10px 5px 10px;
     border-radius: 4px;
     color: #fefdff;
+    width: 200px;
 }
 
 .grid{
     display: block;
-    max-width: 900px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 .grid-col{
-    width: 50%;
+    width: 20%;
     display: inline-block;
     text-align: center;
 }

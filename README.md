@@ -19,3 +19,6 @@
 
 ## Progress Bar
 ![image](https://user-images.githubusercontent.com/38003697/41819221-8b679c48-7771-11e8-820d-696f9ca9ec34.png)
+
+## Tab Panel
+![image](https://user-images.githubusercontent.com/38003697/41825028-ea1f9116-77ce-11e8-9fff-7ede245ae81e.png)
