@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>JSF Pop up panel</title>
+    <h:outputStylesheet name="popup-panel.css"/>
+</h:head>
+<h:body>
+    <h:form>
+        <div style="background-color: antiquewhite">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <div style="background-color: gray">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <div style="background-color: antiquewhite">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <div style="background-color: gray">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <div style="background-color: antiquewhite">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <div style="background-color: gray">
+            Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum Lorem opsum
+            <h:commandButton value="Show details" action="#{popupController.show}">
+                <f:ajax render="@form"/>
+            </h:commandButton>
+        </div>
+        <h:panelGroup layout="block" styleClass="popup-panel-overlay"
+                      rendered="#{popupController.showPopup}">
+            <div id="popup-panel">
+                This is popup panel<br/>
+                This is popup panel<br/>
+                This is popup panel<br/>
+                This is popup panel<br/>
+                This is popup panel<br/>
+                <br/> <br/>
+                <h:commandButton styleClass="hide-button" value="x"
+                                 action="#{popupController.hide}">
+                    <f:ajax render="@form"/>
+                </h:commandButton>
+            </div>
+        </h:panelGroup>
+    </h:form>
+</h:body>
+</html>
